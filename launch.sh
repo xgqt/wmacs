@@ -2,5 +2,5 @@
 
 
 if  [ -f ./init.el ]; then
-    emacs -q --load ./init.el
+    emacs -q --load ./init.el ${@}
 fi
