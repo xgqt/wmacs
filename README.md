@@ -8,7 +8,7 @@ This is a rewrite of my Emacs config that I initially did on 24.08.2020 on a Win
 
 # Use
 
-Clone this repo into ~/.emacs.d 
+Clone this repo into ~/.emacs.d
 
 `git clone --verbose https://gitlab.com/xgqt/wmacs ~/.emacs.d`
 
