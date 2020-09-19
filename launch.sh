@@ -1,6 +1,9 @@
 #!/bin/sh
 
 
-if  [ -f ./init.el ]; then
-    emacs -q --load ./init.el ${@}
+initdir="$(dirname "${0}")"
+
+if  [ -f "${initdir}"/init.el ]
+then
+    emacs -q --load "${initdir}"/init.el "${@}"
 fi
