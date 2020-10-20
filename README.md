@@ -1,12 +1,14 @@
 # Wmacs
 
 
-# About
+## About
 
 This is a rewrite of my Emacs config that I initially did on 24.08.2020 on a Windows VM.
 
 
-# Use
+## Install
+
+### Linux
 
 Clone this repo into ~/.emacs.d
 
@@ -14,19 +16,30 @@ Clone this repo into ~/.emacs.d
 
 or
 
-## Linux
-
-run with `emacs -q --load init.el`
+install with `bash install.sh`
 
 or
 
-install with `bash install.sh`
+install from myov (Gentoo)
 
-## Windows
+```bash
+emerge -av --autounmask app-eselect/eselect-repository
+eselect repository enable myov
+emerge -av --autounmask wmacs
+```
+
+### Windows
+
+copy to `C:\Users\<user>\AppData\Roaming\.emacs.d`
+
+
+## Run (noinstall)
+
+### Linux
+
+run with `sh ./launch.sh`
+
+### Windows
 
 run with `C:\Emacs\bin\emacs.exe -q --load C:\Emacs\wmacs\init.el `
 (assuming those are the correct paths to emacs and wmacs init)
-
-or
-
-copy to `C:\Users\<user>\AppData\Roaming\.emacs.d`
