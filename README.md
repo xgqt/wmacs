@@ -1,5 +1,9 @@
 # Wmacs
 
+<a href=https://alphapapa.github.io/dont-tread-on-emacs/>
+   <img src="https://alphapapa.github.io/dont-tread-on-emacs/dont-tread-on-emacs-150.png" align="right">
+</a>
+
 
 ## About
 
