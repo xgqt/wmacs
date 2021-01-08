@@ -28,7 +28,7 @@ install from myov (Gentoo)
 
 ```bash
 emerge -av --autounmask app-eselect/eselect-repository
-eselect repository enable myov
+eselect repository add myov git https://gitlab.com/xgqt/myov
 emerge -av --autounmask wmacs
 ```
 
